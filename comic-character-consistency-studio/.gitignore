@@ -1,0 +1,54 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tooling
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model / asset blobs (LFS-tracked in prod)
+*.ckpt
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.bin
+!requirements.txt
+
+# Local runtime
+.logs/
+.cache/
+.studio/
+*.sqlite
+*.db
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Secrets
+.env
+.env.*
+!env.example
