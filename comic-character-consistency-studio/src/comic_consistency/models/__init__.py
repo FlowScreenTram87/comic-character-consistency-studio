@@ -1,0 +1,1 @@
+"""Data contracts. No I/O, no adapters, no side effects."""
