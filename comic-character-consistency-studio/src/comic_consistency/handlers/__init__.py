@@ -1,0 +1,1 @@
+"""Thin entry points. No business logic lives in this package."""
